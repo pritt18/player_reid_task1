@@ -1,0 +1,10 @@
+opencv-python
+numpy
+scipy
+ultralytics
+
+# Optional for advanced features (uncomment if needed)
+# torch
+# torchvision
+# deep_sort_realtime
+
