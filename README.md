@@ -1,12 +1,12 @@
 # 📘 Task 1: Cross-Camera Player Mapping
 
-## 📂 Project Overview
+## Project Overview
 
 This project uses object detection (YOLOv8) and a simple spatial matching algorithm to map players consistently across two different camera angles of the same sports footage.
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 player_reid_task1/
@@ -28,7 +28,7 @@ player_reid_task1/
 
 ---
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
 ### 1. Install Python
 
@@ -39,7 +39,6 @@ Python 3.8+ recommended.
 ```bash
 python -m venv venv
 venv\Scripts\activate   # On Windows
-source venv/bin/activate  # On macOS/Linux
 ```
 
 ### 3. Install dependencies
@@ -50,7 +49,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Run the Project
+## Run the Project
 
 Place the following files in `data/` folder:
 
@@ -69,7 +68,7 @@ Annotated outputs will be saved to the `output/` folder.
 
 ---
 
-## 📝 Notes
+## Notes
 
 * Only one frame is processed from each video for basic mapping.
 * Matching is based on center-point distance (can be upgraded with appearance matching or embeddings).
