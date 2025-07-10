@@ -68,6 +68,12 @@ Annotated outputs will be saved to the `output/` folder.
 
 ---
 
+## Download Required Files
+
+- [Download best.pt](https://drive.google.com/file/d/1DbR7AF0AoREkiSCi2ctm8y_CZ5aRZt9a/view?usp=sharing)
+
+---
+
 ## Notes
 
 * Only one frame is processed from each video for basic mapping.
